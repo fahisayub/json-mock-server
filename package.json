@@ -1,15 +1,14 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^0.17.1"
   },
   "name": "json_mock_server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
 
   "keywords": [],
