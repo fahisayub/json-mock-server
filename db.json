@@ -22,6 +22,7 @@
   "books": [],
   "users": [],
   "tweets": [],
+  "dogs":[],
   "jobs": [{
     "id":1,
 		"company": "Ellette",
