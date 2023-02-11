@@ -3,21 +3,21 @@
     {
       "id": 1,
       "username": "core",
-      "passwword": "c123",
+      "password": "c123",
       "email": "core@gmail.com",
       "avatar": "https://i.pravatar.cc/150?u=core"
     },
     {
       "id": 2,
       "username": "Bob",
-      "passwword": "b123",
+      "password": "b123",
       "email": "bob@gmail.com",
       "avatar": "https://i.pravatar.cc/150?u=Bob"
     },
     {
       "id": 3,
       "username": "Jane",
-      "passwword": "j123",
+      "password": "j123",
       "email": "jane@gmail.com",
       "avatar": "https://i.pravatar.cc/150?u=Jane"
     }
