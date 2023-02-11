@@ -1,51 +1,47 @@
 {
-  "feedback": [
+  "users": [],
+  "blogs": [
     {
       "id": 1,
-      "rating": 10,
-      "user_name": "Tony Stark",
-      "text": "You are the ironman of this world"
-    },
-    {
-      "id": 2,
-      "rating": 9,
-      "user_name": "Bruce Wayne",
-      "text": "You are the batman of this world"
-    },
-    {
-      "id": 3,
-      "rating": 8,
-      "user_name": "Peter Parker",
-      "text": "You are the spiderman of this world"
+      "username": "coreyschafer",
+      "title": "Be Present",
+      "content": "Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep.",
+      "category": "Entertainment",
+      "date": "2017-06-01",
+      "likes": 24,
+      "comments": [
+        { "username": "Jane", "content": "Good One" },
+        { "username": "Bob", "content": "Loved It!" }
+      ]
     }
   ],
   "books": [],
-  "users": [],
   "tweets": [],
-  "dogs":[],
-  "jobs": [{
-    "id":1,
-		"company": "Ellette",
-		"postedAt": "2021-03-30",
-		"city": "Gangtok",
-		"location": "American Samoa",
-		"role": "Frontend",
-		"level": "Junior",
-		"contract": "Full Time",
-		"position": " Backend Developer",
-		"language": "Java"
-	},
-	{
-    "id":2,
-		"company": "Jinny",
-		"postedAt": "2021-09-09",
-		"city": "Ludhiana",
-		"location": "Belgium",
-		"role": "FullStack",
-		"level": "Junior",
-		"contract": "Full Time",
-		"position": "Junior Frontend Developer",
-		"language": "Java"
-	}
-]
+  "dogs": [],
+  "jobs": [
+    {
+      "id": 1,
+      "company": "Ellette",
+      "postedAt": "2021-03-30",
+      "city": "Gangtok",
+      "location": "American Samoa",
+      "role": "Frontend",
+      "level": "Junior",
+      "contract": "Full Time",
+      "position": " Backend Developer",
+      "language": "Java"
+    },
+    {
+      "id": 2,
+      "company": "Jinny",
+      "postedAt": "2021-09-09",
+      "city": "Ludhiana",
+      "location": "Belgium",
+      "role": "FullStack",
+      "level": "Junior",
+      "contract": "Full Time",
+      "position": "Junior Frontend Developer",
+      "language": "Java"
+    }
+  ]
 }
