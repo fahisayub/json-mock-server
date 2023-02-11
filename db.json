@@ -10,16 +10,16 @@
     {
       "id": 2,
       "username": "Bob",
-      "passwword": "c123",
-      "email": "core@gmail.com",
-      "avatar": "https://i.pravatar.cc/150?u=core"
+      "passwword": "b123",
+      "email": "bob@gmail.com",
+      "avatar": "https://i.pravatar.cc/150?u=Bob"
     },
     {
       "id": 3,
       "username": "Jane",
-      "passwword": "c123",
-      "email": "core@gmail.com",
-      "avatar": "https://i.pravatar.cc/150?u=core"
+      "passwword": "j123",
+      "email": "jane@gmail.com",
+      "avatar": "https://i.pravatar.cc/150?u=Jane"
     }
     
   ],
