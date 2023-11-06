@@ -20,6 +20,16 @@
       "password": "j123",
       "email": "jane@gmail.com",
       "avatar": "https://i.pravatar.cc/150?u=Jane"
+    },
+    {
+      "id": 101,
+      "name": "Alice Johnson",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 102,
+      "name": "Bob Smith",
+      "email": "bob@example.com"
     }
     
   ],
@@ -69,5 +79,800 @@
       "position": "Junior Frontend Developer",
       "language": "Java"
     }
+  ],
+  "courses":[
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 5,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "InProgress",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 5,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "React Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "NextJs Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 5,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Node.js Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Tensorflow Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Open AI API Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Introduction to OpenAI APIs",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 5,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Data Analytics Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 3,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 4,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 5,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 6,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 7,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 8,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 9,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        },
+        {
+          "week": 10,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "5 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 5,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Web Development Fundamentals",
+      "instructor": "Jane Smith",
+      "description": "A comprehensive introduction to web development.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200214165928/Web-Development-Course-Thumbnail.jpg",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 5:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML and CSS Basics",
+          "content": "Fundamentals of HTML and CSS."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Essentials",
+          "content": "Introduction to JavaScript."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Ella Brown",
+          "email": "ella@example.com"
+        }
+      ]
+    }
   ]
+  
+
 }
